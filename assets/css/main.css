@@ -1,0 +1,126 @@
+/*=================================================================
+  RESET
+==================================================================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, 
+video {margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block}
+
+body{line-height:1}
+ol, ul {list-style:none}
+li{ vertical-align: bottom;}
+blockquote, q {quotes:none}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content:''; content:none}
+table {border-collapse:collapse; border-spacing:0}
+
+fieldset,img { border:0 }
+caption,th { font-style:normal;font-weight:normal;	text-align:left}
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal }
+
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none;}
+[hidden] { display: none; }
+img{vertical-align:middle}
+textarea {resize: vertical}
+button,input,optgroup,select,textarea { color: inherit; font: inherit }
+
+sub,sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline}
+sup {top:-0.5em}
+sub {bottom:-0.25em}
+
+a{ text-decoration:none; background: transparent; }
+a, a:active, a:hover, a:visited, :focus { outline: none!important; text-decoration:none!important;}
+a,img,p {display:block;}
+ol,ul {margin:0;}
+
+*,*:after,*::before {  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;  margin: 0;  padding: 0;  text-decoration: none;  list-style-type: none; outline: none;}
+
+::-webkit-input-placeholder {color:#000000;}		/* WebKit, Blink, Edge */
+:-moz-placeholder {color:#000000; opacity:1;}		/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {color:#000000; opacity:1;}		/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color:#000000;}				/* Internet Explorer 10-11 */
+::-ms-input-placeholder {color:#000000;} 			/* Microsoft Edge */
+::placeholder {color:#000000;} 						/* Most modern browsers support this now. */
+
+/*=================================================================
+  CLASS
+==================================================================*/
+.clearFix {clear:both;}
+.color--white {color:#ffffff;}
+.displayNone {display:none!important;}
+
+/*=================================================================
+  LAYOUT
+==================================================================*/
+html, body {font-size:1.6vw}
+h1 {}
+h2 {font-size:2vw;}
+h3 {font-size:1.6vw;}
+h4 {font-size:1.4vw;}
+h5 {font-size:1.2vw;}
+a, p, span, h6, time {font-size:1vw;}
+
+.title {padding-bottom:24px;}
+.img {width:100%; height:auto;}
+.container {clear:both; width:100%;}
+.content {width:1280px; margin:0 auto; padding:24px 0;}
+#header, #footer {background:#222222;}
+
+#header {position:fixed; left:0; top:0; z-index:33;}
+
+/*=================================================================
+  HEADER
+==================================================================*/
+.navigation {display:table-cell; vertical-align:middle;}
+.navigation__li {float:left;}
+.navigation__link {padding:8px 16px; color:#ffffff;}
+
+
+
+
+/*=================================================================
+  FOOTER
+==================================================================*/
+
+
+
+
+/*=================================================================
+  INDEX
+==================================================================*/
+.banner, .local, .national, .product, .gallery {position:relative; overflow:hidden;}
+
+
+/*=================================================================
+  INDEX - Banner
+==================================================================*/
+.banner__carousel {position:relative; width:100%; height:auto; overflow:hidden;}
+.banner__article {position:relative; float:left;}
+.banner__article a h3 {position:absolute; width:300px; height:200px; z-index:3; color:#ffffff;}
+.banner__article a p {position:absolute; width:300px; height:200px; z-index:3; color:#ffffff;}
+.banner__article a p,
+.banner__article a h3 {z-index:3;}
+
+
+/*=================================================================
+  INDEX - Gallery
+==================================================================*/
+.yt__nav {position:absolute; left:0; top:50%; width:100%; z-index:3;}
+.yt_prev,
+.yt_next {display:block; position:absolute; top:0; width:32px; height:32px; cursor:pointer; text-align:center; line-height:30px; color:#ffffff; background:#999;}
+.yt_prev {left:20px;}
+.yt_next {right:20px;}
+
+.yt_prev:hover, .yt_next:hover {background:#ffffff; color:#999;}
+
+
+
+
+
